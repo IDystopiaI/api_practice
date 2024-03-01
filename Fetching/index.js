@@ -13,5 +13,9 @@ fetch("../Fractals/blue star 116.png")
   .then((blob) => {
     // view this response, referred to as blob for clarity
     console.log(blob);
-    document.getElementById("fractal").src = URL.createObjectURL(blob);
+    document.getElementById("fractal").src = URL.createObjectURL(blob)
+  })
+  // error handling
+  .catch((error) => {
+    console.error(error);
   });
