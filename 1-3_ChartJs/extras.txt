@@ -1,0 +1,5 @@
+Lesson complete, other things to try would be
+graphing temps for norther and southern hemisphere
+(nasa supplies datasets for these), and overlaying them
+
+Trying another library like p5js and creating a graph there
