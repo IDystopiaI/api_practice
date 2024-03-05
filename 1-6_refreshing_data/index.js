@@ -17,15 +17,30 @@ const marker = L.marker([0, 0], { icon: issIcon }).addTo(myMap);
 
 const api_url = "https://api.wheretheiss.at/v1/satellites/25544";
 
+// set zoom once on initial load
+let firstTime = true;
+
 async function getISS() {
   const response = await fetch(api_url);
   const data = await response.json();
   const { latitude, longitude } = data;
+
   // Update marker location
   marker.setLatLng([latitude, longitude]);
-
-  document.getElementById("lat").textContent = latitude;
-  document.getElementById("long").textContent = longitude;
+  if (firstTime) {
+    myMap.setView([latitude, longitude], 3);
+    firstTime = false;
+  } else {
+    myMap.setView([latitude, longitude]);
+  }
+  document.getElementById("lat").textContent = latitude.toFixed(2) + "°";
+  document.getElementById("long").textContent = longitude.toFixed(2) + "°";
 }
-// getISS reaches out to the whereis... API and then updates the map
+// slightly redundant, used to set satellite location on page load
 getISS();
+
+// could create a button element with stopInterval and pass it
+// the value of updateId
+const updateId = setInterval(() => {
+  getISS();
+}, 3000);
