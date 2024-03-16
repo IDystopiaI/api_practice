@@ -5,3 +5,6 @@ CSV data for fetchCSV taken from:
 https://data.giss.nasa.gov/gistemp/
 https://climate.nasa.gov/vital-signs/global-temperature/
 
+Weather Data from https://pirate-weather.apiable.io/
+
+Air Quality from https://openaq.org
