@@ -1,5 +1,5 @@
-// basically an import statement for Node
 const express = require("express");
+
 // create an express instance
 const app = express();
 

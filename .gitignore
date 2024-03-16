@@ -2,3 +2,7 @@ API.txt
 *.docx
 *\.tmp
 node_modules/
+*.db
+sampledata\.json
+response*\.json
+/3-3*

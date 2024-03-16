@@ -1,0 +1,17 @@
+{
+  "name": "2-3_post_req",
+  "version": "1.0.0",
+  "description": "send client location to server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geolocationAPI"
+  ],
+  "author": "Dylan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
