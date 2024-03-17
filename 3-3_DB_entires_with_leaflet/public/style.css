@@ -1,0 +1,10 @@
+p {
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+}
+
+/* rename later */
+#checkinMap {
+  height: 300px;
+}

@@ -1,0 +1,40 @@
+
+{"air": [
+  {
+      "parameter": "no",
+      "value": 0.0029,
+      "lastUpdated": "2024-03-16T21:00:00+00:00",
+      "unit": "ppm"
+  },
+  {
+      "parameter": "so2",
+      "value": 0.0004,
+      "lastUpdated": "2024-03-16T21:00:00+00:00",
+      "unit": "ppm"
+  },
+  {
+      "parameter": "no2",
+      "value": 0.0083,
+      "lastUpdated": "2024-03-16T21:00:00+00:00",
+      "unit": "ppm"
+  },
+  {
+      "parameter": "pm25",
+      "value": 2.1,
+      "lastUpdated": "2024-03-16T21:00:00+00:00",
+      "unit": "µg/m³"
+  },
+  {
+      "parameter": "o3",
+      "value": 0.027,
+      "lastUpdated": "2024-03-16T21:00:00+00:00",
+      "unit": "ppm"
+  },
+  {
+      "parameter": "pm10",
+      "value": 5,
+      "lastUpdated": "2024-01-17T19:00:00+00:00",
+      "unit": "µg/m³"
+  }
+]
+}
